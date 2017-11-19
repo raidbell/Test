@@ -29,7 +29,7 @@
     <!-- Configure the entity manager factory bean -->
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="packagesToScan" value="org.barmaley.vkr.*"/>
+        <property name="packagesToScan" value="com.raidbell.*"/>
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
         </property>
@@ -55,6 +55,6 @@
       Configure Spring Data JPA and set the base package of the
       repository interfaces
     -->
-    <jpa:repositories base-package="org.barmaley.vkr.repository"/>
+    <jpa:repositories base-package="com.raidbell.repository"/>
 
 </beans>

@@ -1,6 +1,6 @@
-package org.barmaley.vkr.repository;
+package com.raidbell.repository;
 
-import org.barmaley.vkr.domain.Exam;
+import com.raidbell.domain.Exam;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

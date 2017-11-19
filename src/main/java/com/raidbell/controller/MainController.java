@@ -1,12 +1,12 @@
-package org.barmaley.vkr.controller;
+package com.raidbell.controller;
 
+import com.raidbell.domain.Discipline;
+import com.raidbell.domain.Exam;
+import com.raidbell.domain.Student;
+import com.raidbell.repository.DisciplineRepository;
+import com.raidbell.repository.ExamRepository;
+import com.raidbell.repository.StudentRepository;
 import org.apache.log4j.Logger;
-import org.barmaley.vkr.domain.Discipline;
-import org.barmaley.vkr.domain.Exam;
-import org.barmaley.vkr.domain.Student;
-import org.barmaley.vkr.repository.DisciplineRepository;
-import org.barmaley.vkr.repository.ExamRepository;
-import org.barmaley.vkr.repository.StudentRepository;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

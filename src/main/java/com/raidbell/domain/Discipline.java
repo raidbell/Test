@@ -1,4 +1,4 @@
-package org.barmaley.vkr.domain;
+package com.raidbell.domain;
 
 import javax.persistence.*;
 
